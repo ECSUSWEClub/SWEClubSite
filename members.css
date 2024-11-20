@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #353238;
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #B0BBBF;
+}
+html, body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #B0BBBF;
+    line-height: 1.6;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.info {
+    margin-top: 25px;
+}
+header, footer {
+    background-color: #5762D5;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+header img {
+    width: 90%;
+    max-width: 115px;
+    border-radius: 50%;
+}
+header {
+    position: fixed;
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse; 
+}
+
+th { 
+    padding: 10px 15px; 
+    text-align: left;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+main {
+    margin-top: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.person img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.person {
+    padding: 20px;              
+    border-radius: 5px;         
+    border: 5px solid #353238; 
+    background-color: #B0BBBF;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0;              
+}
+.person:hover{
+    cursor: pointer;
+    border-radius: 5px; 
+    background-color: #d0dde1;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.person h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    text-align: left;
+    
+}
+.person p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+.person a:hover {
+    text-decoration: underline;
+    color: #623CEA;
+}
+section p {
+    margin-bottom: 15px;
+}

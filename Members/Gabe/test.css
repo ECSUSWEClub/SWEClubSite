@@ -1,0 +1,343 @@
+/* Desktop - 1 */
+body {
+    position: relative;
+    background: #B0BBBF;
+}
+
+
+
+/* Navbar */
+
+#navbar{
+    position: absolute;
+    height: 130px;
+    width: 1440px;
+    left: 0;
+    top: 0;
+
+    background: #5762D5;
+}
+
+
+
+/*!* Footer *!*/
+footer {
+    position: absolute;
+    height: 299px;
+    width: 1440px;
+    left: 0;
+    top: 894px;
+
+    background: #5762D5;
+}
+
+
+/*!* ECSU Software Engineering Club *!*/
+
+#title {
+    position: absolute;
+    width: 227px;
+    height: 55px;
+    left: 169px;
+    top: 38px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #353238;
+}
+
+
+/*!* DALL·E 2024-09-12 14.34.50 - A clean and modern logo for a software engineering club. The design should incorporate elements such as a computer, code snippets, or circuit lines to 1 *!*/
+
+#navbar > #logo {
+    position: absolute;
+    width: 145px;
+    height: 130px;
+    left: 0;
+    top: 0;
+
+    background: url("Images/SWE.png");
+}
+
+/*!* About Us *!*/
+
+/*position: absolute;*/
+/*width: 146px;*/
+/*height: 29px;*/
+/*left: 587px;*/
+/*top: 61px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 28px;*/
+/*line-height: 34px;*/
+
+/*color: #353238;*/
+
+
+
+/*!* Members *!*/
+
+/*position: absolute;*/
+/*width: 125px;*/
+/*height: 34px;*/
+/*left: 867px;*/
+/*top: 61px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 28px;*/
+/*line-height: 34px;*/
+/*!* identical to box height *!*/
+
+/*color: #353238;*/
+
+
+
+/*!* Portfolio *!*/
+
+/*position: absolute;*/
+/*width: 113px;*/
+/*height: 34px;*/
+/*left: 1126px;*/
+/*top: 61px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 28px;*/
+/*line-height: 34px;*/
+/*!* identical to box height *!*/
+
+/*color: #353238;*/
+
+
+
+/*!* 1718337024619 *!*/
+
+/*position: absolute;*/
+/*width: 224px;*/
+/*height: 224px;*/
+/*left: 89px;*/
+/*top: 196px;*/
+
+/*background: url(1718337024619.jpg);*/
+
+
+/*!* Rectangle 4 *!*/
+
+/*position: absolute;*/
+/*width: 941px;*/
+/*height: 224px;*/
+/*left: 411px;*/
+/*top: 196px;*/
+
+/*background: #D9D9D9;*/
+
+
+/*!* Block of text here describing myself *!*/
+
+/*position: absolute;*/
+/*width: 407px;*/
+/*height: 29px;*/
+/*left: 660px;*/
+/*top: 295px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* Rectangle 5 *!*/
+
+/*position: absolute;*/
+/*width: 222px;*/
+/*height: 213px;*/
+/*left: 91px;*/
+/*top: 502px;*/
+
+/*background: #D9D9D9;*/
+
+
+/*!* image *!*/
+
+/*position: absolute;*/
+/*width: 298px;*/
+/*height: 213px;*/
+/*left: 411px;*/
+/*top: 502px;*/
+
+/*background: url(image.png);*/
+
+
+/*!* libgenlogo *!*/
+
+/*position: absolute;*/
+/*width: 298px;*/
+/*height: 213px;*/
+/*left: 733px;*/
+/*top: 502px;*/
+
+/*background: url(libgenlogo.png);*/
+
+
+/*!* Rectangle 8 *!*/
+
+/*position: absolute;*/
+/*width: 298px;*/
+/*height: 213px;*/
+/*left: 1054px;*/
+/*top: 502px;*/
+
+/*background: #D9D9D9;*/
+
+
+/*!* DJango Project *!*/
+
+/*position: absolute;*/
+/*width: 174px;*/
+/*height: 29px;*/
+/*left: 473px;*/
+/*top: 715px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* LibraHub *!*/
+
+/*position: absolute;*/
+/*width: 104px;*/
+/*height: 29px;*/
+/*left: 831px;*/
+/*top: 715px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* Quoridor *!*/
+
+/*position: absolute;*/
+/*width: 100px;*/
+/*height: 29px;*/
+/*left: 1152px;*/
+/*top: 715px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* My Own Projects *!*/
+
+/*position: absolute;*/
+/*width: 193px;*/
+/*height: 29px;*/
+/*left: 785px;*/
+/*top: 447px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* Rectangle 9 *!*/
+
+/*position: absolute;*/
+/*width: 1260px;*/
+/*height: 117px;*/
+/*left: 92px;*/
+/*top: 756px;*/
+
+/*background: #D9D9D9;*/
+
+
+/*!* Another block of text describing achievements, etc, why I created the club *!*/
+
+/*position: absolute;*/
+/*width: 844px;*/
+/*height: 29px;*/
+/*left: 456px;*/
+/*top: 800px;*/
+
+/*font-family: 'Inter';*/
+/*font-style: normal;*/
+/*font-weight: 400;*/
+/*font-size: 24px;*/
+/*line-height: 29px;*/
+/*!* identical to box height *!*/
+
+/*color: #000000;*/
+
+
+
+/*!* image 1 *!*/
+
+/*position: absolute;*/
+/*width: 42px;*/
+/*height: 38.35px;*/
+/*left: 111px;*/
+/*top: 517px;*/
+
+/*background: url(image.png);*/
+
+
+/*!* image 2 *!*/
+
+/*position: absolute;*/
+/*width: 42px;*/
+/*height: 46.62px;*/
+/*left: 111px;*/
+/*top: 575px;*/
+
+/*background: url(image);*/
+
+
+/*!* image 3 *!*/
+
+/*position: absolute;*/
+/*width: 42px;*/
+/*height: 42px;*/
+/*left: 111px;*/
+/*top: 641px;*/
+
+/*background: url(image.png);*/

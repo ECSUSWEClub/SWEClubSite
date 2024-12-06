@@ -1,0 +1,138 @@
+/*Natalie Weronik CSS SWE Webpage*/
+body, header, main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    padding: 2%;
+}
+
+body{
+    background-color: #623CEA;
+}
+
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left:30%;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    display: inline-block;
+}
+
+nav li a {
+    padding: 0.1em 2em;
+    display: block;
+    color: #1f1e21;
+    text-decoration: none;
+}
+
+main{
+    background-color: #B0BBBF;
+    color:#353238;
+}
+
+h1{
+    font-size: 60px;
+    padding-top:0.5em;
+    padding-left:0.3em;
+    text-decoration:underline;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+h4{
+    padding-top:0.2em;
+}
+h5{
+    font-size: 15px;
+    padding-left:20px;
+}
+
+.year{
+    
+    padding-left:0.7em;
+}
+
+img{
+    width:100%;
+    border-style:double;
+    border-color: #353238;
+    border-width: 5px;
+
+}
+
+.grid3{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap:30px;
+    padding: 0 3em 3em 1em;
+}
+/*Social Buttons*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    box-shadow: 8px 8px 10px #808080;
+    transform: translateY(3px);
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: #592a80;
+    color: white;
+}
+
+/*About Section*/
+.about{
+    border: 2px solid #e6edf0;
+    padding-left:0.5em;
+}
+
+/*Past Experiences Section*/
+.peboxes{
+    background-color: #e6edf0;
+    padding-bottom:0.5px;
+    padding-left:0.3em;
+}
+
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: #1f1e21;
+}
+
+footer p a{
+    color:#1f1e21;
+    text-decoration: none;
+}
